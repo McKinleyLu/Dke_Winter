@@ -10,6 +10,6 @@ USER gitpod
 #     sudo rm -rf /var/lib/apt/lists/*
 #
 # More information: https://www.gitpod.io/docs/config-docker/
-RUN sudo apt-get update && sudo apt-get install -y ipuntils-ping vim netcat
+RUN sudo apt-get update && sudo apt-get install -y iputils-ping vim netcat
 #指导如何配置硬盘
 #使用
