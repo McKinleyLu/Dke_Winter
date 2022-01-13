@@ -7,3 +7,6 @@ tasks:
     command: |
      echo "first line"
      echo "second line"
+     pwd
+  - name: "start our db"
+    command: /bin/bash /workspace/Dke_Winte/start_db.sh
